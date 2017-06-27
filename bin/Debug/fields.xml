@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fields>
+	<field id="0" name="none" type="0" mine="0">a</field>
+	<field id="1" name="grass" type="1" mine="0">a</field>
+	<field id="2" name="water" type="2" mine="0">a</field>
+	<field id="3" name="rock" type="1" mine="3">a</field>
+	<field id="4" name="stone field" type="1" mine="0">a</field>
+</fields>

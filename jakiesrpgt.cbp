@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="jakiesrpg" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/jakiesrpg" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-std=c++11" />
+					<Add option="-g" />
+					<Add directory="pdcurses" />
+					<Add directory="pdcurses/win32" />
+					<Add directory="rapidxml" />
+					<Add directory="include" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="pdcurses/win32" />
+					<Add directory="pdcurses" />
+					<Add directory="rapidxml" />
+				</ResourceCompiler>
+				<Linker>
+					<Add library="pdcurses\win32\pdcurses.a" />
+					<Add directory="pdcurses/win32" />
+					<Add directory="pdcurses" />
+					<Add directory="rapidxml" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/jakiesrpg" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="include/DrawHelper.h" />
+		<Unit filename="include/MapHelper.h" />
+		<Unit filename="include/field.h" />
+		<Unit filename="include/item.h" />
+		<Unit filename="include/mapp.h" />
+		<Unit filename="include/player.h" />
+		<Unit filename="include/statistic.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/DrawHelper.cpp" />
+		<Unit filename="src/MapHelper.cpp" />
+		<Unit filename="src/field.cpp" />
+		<Unit filename="src/item.cpp" />
+		<Unit filename="src/mapp.cpp" />
+		<Unit filename="src/player.cpp" />
+		<Unit filename="src/statistic.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

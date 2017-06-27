@@ -1,0 +1,10 @@
+
+
+typ   dobrze  typ
+
+mlotek   51             skala   1    
+
+siekiera  52        drwno  2
+
+
+kilof   53             mineraly   3

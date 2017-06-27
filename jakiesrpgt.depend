@@ -1,0 +1,130 @@
+# depslib dependency file v1.0
+1479491580 source:c:\c++\mercurialtest\jakiesrpg\main.cpp
+	<string.h>
+	<vector>
+	<list>
+	<cstdlib>
+	<ctime>
+	"GameHelper.h"
+	"Recipment.h"
+
+1216124006 c:\c++\mercurialtest\jakiesrpg\pdcurses\curses.h
+	<stdarg.h>
+	<stddef.h>
+	<stdio.h>
+	<wchar.h>
+
+1479691097 c:\c++\mercurialtest\jakiesrpg\include\drawhelper.h
+	<SFML/Graphics.hpp>
+	<cmath>
+	<fstream>
+	<Windows.h>
+	<dirent.h>
+	"mapp.h"
+	"player.h"
+	"common.h"
+	"button.h"
+	"listbox.h"
+	"tooltip.h"
+
+1479311026 c:\c++\mercurialtest\jakiesrpg\include\maphelper.h
+	<iostream>
+	<fstream>
+	<memory>
+	<string.h>
+	<map>
+	"Recipment.h"
+	"mapp.h"
+	"player.h"
+	"DrawHelper.h"
+	"rapidxml.hpp"
+	"rapidxml_print.hpp"
+
+1479675729 c:\c++\mercurialtest\jakiesrpg\include\mapp.h
+	"field.h"
+	<vector>
+	<map>
+
+1478437936 c:\c++\mercurialtest\jakiesrpg\include\field.h
+	<SFML/Graphics.hpp>
+	<list>
+	"item.h"
+	<iostream>
+
+1479777575 c:\c++\mercurialtest\jakiesrpg\include\item.h
+	<SFML/Graphics.hpp>
+	<iostream>
+	<vector>
+	<cstdlib>
+	<ctime>
+	"common.h"
+	"statistic.h"
+
+1476450864 c:\c++\mercurialtest\jakiesrpg\include\statistic.h
+
+1479679171 c:\c++\mercurialtest\jakiesrpg\include\player.h
+	"item.h"
+	<vector>
+	<cmath>
+
+1242171978 c:\c++\mercurialtest\jakiesrpg\rapidxml\rapidxml.hpp
+	<cstdlib>
+	<cassert>
+	<new>
+	<exception>
+
+1242420560 c:\c++\mercurialtest\jakiesrpg\rapidxml\rapidxml_print.hpp
+	"rapidxml.hpp"
+	<ostream>
+	<iterator>
+
+1479805193 source:c:\c++\mercurialtest\jakiesrpg\src\drawhelper.cpp
+	"DrawHelper.h"
+
+1479676031 source:c:\c++\mercurialtest\jakiesrpg\src\field.cpp
+	"field.h"
+
+1479777611 source:c:\c++\mercurialtest\jakiesrpg\src\item.cpp
+	"item.h"
+
+1479805834 c:\c++\mercurialtest\jakiesrpg\include\gamehelper.h
+	<SFML/Graphics.hpp>
+	"player.h"
+	"mapp.h"
+	"DrawHelper.h"
+	"MapHelper.h"
+
+1479312795 c:\c++\mercurialtest\jakiesrpg\include\common.h
+
+1478297837 c:\c++\mercurialtest\jakiesrpg\include\button.h
+	<SFML/Graphics.hpp>
+	<string>
+	<iostream>
+
+1478824491 c:\c++\mercurialtest\jakiesrpg\include\listbox.h
+	<SFML/Graphics.hpp>
+	<string>
+	<vector>
+
+1479481884 c:\c++\mercurialtest\jakiesrpg\include\tooltip.h
+	<SFML/Graphics.hpp>
+	<string>
+
+1479339105 c:\c++\mercurialtest\jakiesrpg\include\recipment.h
+	<list>
+	<map>
+	"common.h"
+	<iostream>
+
+1479800900 source:c:\c++\mercurialtest\jakiesrpg\src\maphelper.cpp
+	"MapHelper.h"
+
+1479781081 source:c:\c++\mercurialtest\jakiesrpg\src\mapp.cpp
+	"mapp.h"
+
+1479679026 source:c:\c++\mercurialtest\jakiesrpg\src\player.cpp
+	"player.h"
+
+1476450864 source:c:\c++\mercurialtest\jakiesrpg\src\statistic.cpp
+	"statistic.h"
+

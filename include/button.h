@@ -22,6 +22,7 @@ class button
 
     private:
         bool isHover;
+        bool nothing;
         sf::Text *text;
         sf::RectangleShape *border;
         sf::RectangleShape *shadow;
